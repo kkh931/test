@@ -13,8 +13,16 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping(value="/list") // 컨트롤러 URL 매핑
 public class ListController {
 	
+	// 월베로
 	@RequestMapping(value = "/walbe", method = RequestMethod.GET)
 	public String goWalbe(Model model) {
 		return "list/walbe";
 	}
+	
+	// 짤게로
+	@RequestMapping(value = "/jjal", method = RequestMethod.GET)
+	public String goJjalbe(Model model) {
+		return "list/jjal";
+	}
+
 }

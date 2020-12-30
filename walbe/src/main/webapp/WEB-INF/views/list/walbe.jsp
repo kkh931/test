@@ -6,7 +6,7 @@
 <jsp:include page="/WEB-INF/views/header.jsp" flush="true" />
 <meta charset="UTF-8">
 </head>
-<body>
-<p1>월간베스트</p1>
+<body class="text-center">
+<h1>월간베스트</h1>
 </body>
 </html>

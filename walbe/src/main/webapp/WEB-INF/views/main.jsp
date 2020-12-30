@@ -6,13 +6,11 @@
 <jsp:include page="header.jsp" flush="true" />
 
 <meta charset="UTF-8">
+<!-- Bootstrap core CSS -->
 <title>월베저장소</title>
 </head>
-<body>
-	<div class="jumbotron">
-        <h1>Hello, world!</h1>
-        <p>The time on the server is ${serverTime}.</p>
-    </div>
-    <a href="/spring02">spring2</a>
+<body class="text-center">
+<h1>톱페이지</h1>
+
 </body>
 </html>
